@@ -1,0 +1,64 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="estilos/style.css">
+    <link rel="stylesheet" href="estilos/mediaqueries.css">
+    <title>Login</title>
+</head>
+<body>
+
+    <header>
+       
+        <nav> 
+            <h1><img src="imagens/_04__298_3985_2092_+76_209_1092_4095_info_mollysrestaurant.com-removebg-preview.png" alt="logo"></h1>
+            <ul> 
+               
+                <li><a href="#">Home</a></li>
+                <li><a href="#">Blog</a></li>
+                <li><a href="#">Services</a></li>
+                <li><a href="#">Sobre</a></li>
+                
+            </ul>
+            <div>
+                <input type="button" id="prin" value="Sign In">
+                <a href="cadastrar.html" id="prin">  Sign Up</a>
+            </div>
+        </nav>
+    </header>
+
+
+    <div class="contaneir">
+ 
+       
+<div class="home">
+              <h2>Login</h2>
+            <div class="user">
+                <label for="itext">Username</label>
+                <input type="email" name="text" id="itext" placeholder="Email" autocomplete="email" maxlength="30" required>
+            </div>
+    
+            <div class="pass">
+                <label for="pass">Password</label>
+                <input type="password" name="ipass" id="pass" placeholder="Password"   autocomplete="current-password" required>
+            </div>
+    
+            <div class="entrar">
+                <input type="button"  onclick="checar()" value="Sing In" id="enter" required>
+            </div>
+    
+            <div class="esqueceu">
+                <a href="#" class="esquece" >Esqueceu a Password</a>
+            </div>
+    
+    
+</div>
+
+
+
+    </div>
+    
+</body>
+ <script src="script.js"></script>
+</html>

@@ -1,0 +1,129 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <link rel="stylesheet" href="estilos/cadastro.css" />
+    <title>Cadastrar</title>
+  </head>
+  <body>
+    <header>
+      <nav>
+        <img
+          src="imagens/_04__298_3985_2092_+76_209_1092_4095_info_mollysrestaurant.com-removebg-preview.png"
+          alt="imagem"
+        />
+      </nav>
+    </header>
+
+    <div class="containe">
+      <div class="sub">
+        <h1>Cadastrar</h1>
+        <a href="intex.html" id="bu">Sing In</a>
+        <div class="inf">
+          <div class="input-box">
+            <label for="iname">Primeiro Nome</label>
+            <input
+              type="text"
+              name="name"
+              id="iname"
+              placeholder="Digite o seu nome"
+              required
+              maxlength="30"
+              class="box"
+            />
+          </div>
+
+          <div class="input-box">
+            <label for="name">Sobrenome</label>
+            <input
+              type="text"
+              name="name"
+              id="name"
+              placeholder="Digite o seu nome"
+              required
+              maxlength="30"
+              class="box"
+            />
+          </div>
+
+          <div class="input-box">
+            <label for="idata">Data de Nascimento</label>
+            <input type="date" name="data" id="idata" required class="box" />
+          </div>
+
+          <div class="input-box">
+            <label for="Celular">Celular</label>
+            <input
+              type="text"
+              name="icelular"
+              id="Celular"
+              placeholder="(+244 XXX-XXX-XXX)"
+              required
+              maxlength="30"
+              class="box"
+            />
+          </div>
+
+          <div class="input-box">
+            <label for="iemel">Email</label>
+            <input
+              type="email"
+              name="Email"
+              id="iemel"
+              placeholder="Digite o seu Email"
+              required
+              maxlength="30"
+              class="box"
+            />
+          </div>
+
+          <div class="input-box">
+            <label for="isenha">senha</label>
+            <input
+              type="password"
+              name="senha"
+              id="isenha"
+              placeholder="Digite a sua senha"
+              required
+              maxlength="8"
+              class="box"
+            />
+          </div>
+
+          <div class="input-box">
+            <label for="iconf">Confirmar senha</label>
+            <input
+              type="password"
+              name="confsenha"
+              id="iconf"
+              placeholder="Confirmar senha"
+              required
+              maxlength="8"
+              class="box"
+            />
+          </div>
+        </div>
+
+        <div class="genero">
+          <div class="home">
+            <h1>Gênero</h1>
+
+            <div class="genero-box">
+              <label for="Homem">Masculino</label>
+              <input type="radio" name="gender" id="Homem" required />
+            </div>
+
+            <div class="genero-box">
+              <label for="Femenino">Femenino</label>
+              <input type="radio" name="gender" id="Femenino" required />
+            </div>
+            <div>
+              <input type="button" id="bo" value="Enviar" />
+            </div>
+          </div>
+        </div>
+      </div>
+    </div>
+  </body>
+</html>
