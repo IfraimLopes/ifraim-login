@@ -52,6 +52,8 @@ header > nav {
      border: 1px solid white;
    padding: 20px;
    border-radius: 20px;
+   background-color: transparent;
+   backdrop-filter: blur(3px);
 }
 
 

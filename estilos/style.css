@@ -122,7 +122,9 @@ header > nav > div > input:hover{
     align-items: center;
     border: 1px solid white;
     padding: 38px;
-    border-radius: 10px
+    border-radius: 10px;
+    background-color: transparent;
+    backdrop-filter: blur(3px);
 }
 
 .home:hover{
