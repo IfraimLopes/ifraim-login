@@ -132,7 +132,7 @@ header > nav > div > input:hover{
 }
 
 .material-icons{
-   
+  display: none; 
 }
 
  .pass > input[type=text]{
