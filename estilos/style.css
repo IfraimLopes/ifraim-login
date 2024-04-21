@@ -124,11 +124,19 @@ header > nav > div > input:hover{
     padding: 38px;
     border-radius: 10px;
     background-color: transparent;
-    backdrop-filter: blur(3px);
+    backdrop-filter: blur(2px);
 }
 
 .home:hover{
     transform: scale(1.1);
+}
+
+.material-icons{
+   
+}
+
+ .pass > input[type=text]{
+    padding-left: 80px;
 }
 
 .esquece {
